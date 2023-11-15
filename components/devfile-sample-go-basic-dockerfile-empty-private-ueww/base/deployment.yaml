@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic-dockerfile-empty-private-ueww
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-jswe-tenant/mc-golang-without/devfile-sample-go-basic-dockerfile-empty-private-ueww@sha256:dc6b727041609e0810fad166ab94e18b0ba633108d661966070b8f42c68eeb82
         name: my-go
         ports:
         - containerPort: 8081
